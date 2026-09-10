@@ -1,0 +1,27 @@
+<b>Your conversations. Your choice.</b>
+
+SYN Messenger is a fast, private messaging app built on Matrix, the open standard for secure, decentralized communication.
+
+Stay connected with friends, family, teams, and communities through:
+
+• End-to-end encrypted messages
+• Voice and video calls
+• Private and public rooms
+• Replies, reactions, polls, pinned messages, and threads
+• Photo, video, file, and location sharing
+• Spaces for organizing your conversations
+• Synchronized history across your devices
+
+<b>Choose your server</b>
+
+Sign in with an existing Matrix account, use a public provider such as matrix.org, or connect to a server you control. SYN Messenger works across the open Matrix network, so you are not locked into one provider or one app.
+
+<b>Private by design</b>
+
+SYN Messenger supports end-to-end encryption for private conversations. Your messages remain yours, and you decide where your account and data are hosted.
+
+<b>Open source</b>
+
+SYN Messenger is free and open-source software based on Element X Android and licensed under the GNU Affero General Public License v3. Source code and license notices are available from the app and the SYN Messenger website.
+
+SYN Messenger is an independent Matrix client. It is not affiliated with, endorsed by, or sponsored by Element or the Matrix.org Foundation.
