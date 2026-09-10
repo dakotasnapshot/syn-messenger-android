@@ -128,7 +128,11 @@ android {
                 "login_redirect_scheme",
                 oAuthRedirectSchemeBase,
             )
-            signingConfig = signingConfigs.getByName("synRelease")
+            // F-Droid builds and signs its own APKs. Apply the SYN release key only
+            // when release credentials are explicitly provided by our release job.
+            if (System.getenv("SYN_ANDROID_KEYSTORE") != null) {
+                signingConfig = signingConfigs.getByName("synRelease")
+            }
 
             optimization {
                 enable = true
