@@ -66,7 +66,8 @@ jobs:
   enterprise:
     name: Create App Bundle Enterprise
     runs-on: ubuntu-latest
-    if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == 'element-hq/element-x-android' }}
+    # The enterprise implementation is private to Element and is not part of SYN.
+    if: ${{ github.repository == 'element-hq/element-x-android' && (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == 'element-hq/element-x-android') }}
     concurrency:
       group: ${{ format('build-release-main-enterprise-{0}', github.sha) }}
       cancel-in-progress: true
