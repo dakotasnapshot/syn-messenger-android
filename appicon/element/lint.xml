@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- SYN intentionally uses the same artwork for its regular and round launcher icons. -->
+    <issue id="IconDuplicates">
+        <ignore path="src/main/res/mipmap-hdpi/ic_launcher_round.webp" />
+        <ignore path="src/main/res/mipmap-mdpi/ic_launcher_round.webp" />
+        <ignore path="src/main/res/mipmap-xhdpi/ic_launcher_round.webp" />
+        <ignore path="src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" />
+        <ignore path="src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" />
+    </issue>
+</lint>
