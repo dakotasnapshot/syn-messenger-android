@@ -1,0 +1,1 @@
+Correct the Gradle wrapper metadata and executable so F-Droid can verify the build toolchain.
