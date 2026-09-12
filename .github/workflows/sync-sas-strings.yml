@@ -1,9 +1,6 @@
 name: Sync SAS strings
 on:
   workflow_dispatch:
-  schedule:
-    # At 00:00 on every Monday UTC
-    - cron: '0 0 * * 1'
 
 permissions: {}
 
@@ -36,5 +33,4 @@ jobs:
           branch: sync-sas-strings
           base: develop
           labels: PR-Misc
-
 

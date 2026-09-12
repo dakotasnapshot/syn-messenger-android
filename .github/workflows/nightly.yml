@@ -2,9 +2,6 @@ name: Build and release nightly application
 
 on:
   workflow_dispatch:
-  schedule:
-    # Every nights at 4
-    - cron: "0 4 * * *"
 
 permissions: {}
 
