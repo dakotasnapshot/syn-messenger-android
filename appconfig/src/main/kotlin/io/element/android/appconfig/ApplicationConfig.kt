@@ -17,7 +17,7 @@ object ApplicationConfig {
      * - "Element X dbg" for debug builds;
      * - "Element X nightly" for nightly builds.
      */
-    const val APPLICATION_NAME: String = "SYN Messenger"
+    const val APPLICATION_NAME: String = "Syndicate"
 
     /**
      * Used in the strings to reference the Element client.
@@ -31,7 +31,7 @@ object ApplicationConfig {
      * Cannot be empty.
      * For Element, the value is "Element". We use the same name for desktop and mobile for now.
      */
-    const val DESKTOP_APPLICATION_NAME: String = "SYN Messenger"
+    const val DESKTOP_APPLICATION_NAME: String = "Syndicate"
 
     /** HTTPS callback accepted by Matrix Authentication Service dynamic client registration. */
     const val OAUTH_REDIRECT_URL: String = "https://synmessenger.com/mobile/oidc"

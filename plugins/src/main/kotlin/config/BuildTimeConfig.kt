@@ -10,7 +10,7 @@ package config
 
 object BuildTimeConfig {
     const val APPLICATION_ID = "app.syn.messenger"
-    const val APPLICATION_NAME = "SYN Messenger"
+    const val APPLICATION_NAME = "Syndicate"
     const val GOOGLE_APP_ID_RELEASE = "1:526902586678:android:206902e7eb917939821797"
     const val GOOGLE_APP_ID_DEBUG = "1:526902586678:android:6337bf3aa6c5dfec821797"
     const val GOOGLE_APP_ID_NIGHTLY = "1:526902586678:android:6337bf3aa6c5dfec821797"
